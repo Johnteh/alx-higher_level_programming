@@ -4,7 +4,7 @@ This was my first project in which I began to work with SQL and relational
 databases. I began practicing introductory data definition and data
 manipulation language, making subqueries, and using functions.
 
-## Usage : dolphin:
+## Usage :dolphin:
 
 * Scripts [3-list_tables.sql](./3-list_tables) forward take the database to query from as a MySQL command line argument
 ```
@@ -12,7 +12,7 @@ $ cat 3-list_tables.sql | mysql - h localhost -u root -p mysql
 ```
 * Tasks 101-103 query from the database [temperatures.sql](./temperatures.sql).
 
-## Tasks : page_with_curl:
+## Tasks :fax:
 
 * **0. List databases**
   *[0-list_databases.sql](./0-list_databases.sql): MySQL script that lists all databases.
