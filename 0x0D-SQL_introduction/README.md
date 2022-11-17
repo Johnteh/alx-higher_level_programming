@@ -5,9 +5,11 @@ databases. I began practicing introductory data definition and data
 manipulation language, making subqueries, and using functions.
 
 ## Usage :dolphin:
+B
 
 * Scripts [3-list_tables.sql](./3-list_tables) forward take the database to query from as a MySQL command line argument
 ```
+B
 $ cat 3-list_tables.sql | mysql - h localhost -u root -p mysql
 ```
 * Tasks 101-103 query from the database [temperatures.sql](./temperatures.sql).
@@ -43,7 +45,22 @@ $ cat 3-list_tables.sql | mysql - h localhost -u root -p mysql
 
 * **7. First add**
   * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table
-  `first_tabley
+  `first_table'
+
+* **8.Count 89**
+  * [8-count_89.sql](./8-count_89.sql): MySQL script that displays the number records with 'id = 89' in the table 'first_table.'
+
+* **9.Full creation** 
+  * [9-full_creation.sql](./9-full_creation.sql): MySQL script that creates and fills a table 'second_table.'
+  * Description:
+    * 'id': INT
+    * 'name': VARCHAR(256)
+    * 'score': INT
+  * Records:
+    * 'id' = 1, 'name' = "john", 'score' = 10
+    * 'id' = 2, 'name' = "Alex", 'score' = 3
+    * 'id' = 3, 'name' = "Bob", 'score' = 14
+    * 'id' = 4, 'name' = "George", 'score' = 8
 
 
 
